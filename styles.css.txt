@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f0f8ff;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffdd00;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(120deg, #ff7eb3, #ff758c, #fd3a69);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.cta-button {
+    background: #6a11cb;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background: #2575fc;
+    transform: scale(1.1);
+}
+
+/* Services Section */
+.services {
+    background: #e3f2fd;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #007bb5;
+    text-transform: uppercase;
+}
+
+.service-item {
+    background: white;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 300px;
+    display: inline-block;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #6a11cb;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* About Section */
+.about {
+    background: linear-gradient(to right, #f9d423, #ff4e50);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* Contact Section */
+.contact {
+    background: #fafafa;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #6a11cb;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact button {
+    background: #6a11cb;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.contact button:hover {
+    background: #2575fc;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}

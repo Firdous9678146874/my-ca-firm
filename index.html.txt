@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Chartered Accountant Firm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">MY Chartered Accountant Firm</h1>
+            <nav class="navbar">
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Your Trusted Partner for Financial Growth</h2>
+            <p>Providing expert accounting, tax, and financial advisory services tailored to your needs.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Accounting & Bookkeeping</h3>
+                <p>Ensure accurate financial records and seamless operations for your business.</p>
+            </div>
+            <div class="service-item">
+                <h3>Tax Advisory</h3>
+                <p>Navigate complex tax regulations with our expert guidance.</p>
+            </div>
+            <div class="service-item">
+                <h3>Auditing</h3>
+                <p>Maintain compliance and transparency with our thorough auditing services.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of certified professionals dedicated to helping businesses achieve their financial goals. With years of experience and a client-centric approach, we ensure your success.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 MY Chartered Accountant Firm. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
